@@ -2,11 +2,12 @@
   <head>
     <link rel="stylesheet" href="dist/reveal.css">
     <link rel="stylesheet" href="dist/theme/night.css">
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
-        <section data-markdown>
+        <section data-markdown data-transition="convex" data-background-image="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1782&q=80" data-background-opacity=0.2>
           <textarea data-template>
             ### Why Actionable AI Ethics
             #### Operationalizing AI Ethics in practice
@@ -15,28 +16,46 @@
             ###### Founder, Montreal AI Ethics Institute 
             ###### Machine Learning Engineer, Microsoft 
             ---
-            ###### To learn more, please visit the [homepage](https://atg-abhishek.github.io/actionable-ai-ethics)
-            ###### Find the newsletter [here](https://actionableaiethics.substack.com)
+            ###### To learn more, please visit the [homepage](https://atg-abhishek.github.io/actionable-ai-ethics).
+            ###### Find the newsletter [here](https://actionableaiethics.substack.com).
           </textarea>
         </section>
-        <section data-transition="convex" data-markdown="">
+        <section data-transition="convex">
+          <h4>AI Ethics need to be made actionable!</h4>
+          <p class='fragment fade-in-then-semi-out'>We are struggling with operationalizing AI ethics.</p>
+          <p class='fragment fade-in-then-semi-out'>Engineers need practical guidance translating principles into code.</p>
+          <p class='fragment fade-in-then-semi-out'>My forthcoming book will be your guide on that journey!</p>
+        </section>
+        <section data-transition="convex">
+          <h4>A newsletter accompaniment to the book</h4>
+          <p class='fragment fade-in-then-semi-out'>I am creating <a href="https://actionableaiethics.substack.com">this newsletter</a> so that we have an opportunity to make something meaningful together.</p>
+          <p class='fragment fade-in-then-semi-out'>Sign up for morsels as I embark on this journey putting my insights into this book.</p>
+          <p class='fragment fade-in-then-semi-out'>I am always open to feedback, so don't hesitate in reaching out!</p>
+        </section>
+        <section data-transition="convex" data-markdown >
           <textarea data-template>
-            #### More information forthcoming, stay tuned!
+            ##### ``` actionable-ai-ethics ``` coming soon, stay tuned!
             ---
             ##### Sign up [here](https://actionableaiethics.substack.com) for the newsletter in the meantime!
+            ---
+            ##### You can reach me through the channels listed [here](https://atg-abhishek.github.io).
           </textarea>
         </section>
       </div>
     </div>
     <script src="dist/reveal.js"></script>
     <script>
-      Reveal.initialize();
+      Reveal.initialize({
+        slideNumber: "c/t",
+        mouseWheel: true
+      });
     </script>
   </body>
   <script src="plugin/markdown/markdown.js"></script>
+  <script src="plugin/highlight/highlight.js"></script>
     <script>
       Reveal.initialize({
-        plugins: [ RevealMarkdown ]
+        plugins: [ RevealMarkdown, RevealHighlight]
       });
     </script>
 </html>
