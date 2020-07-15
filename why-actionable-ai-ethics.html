@@ -1,13 +1,31 @@
 <html>
   <head>
     <link rel="stylesheet" href="dist/reveal.css">
-    <link rel="stylesheet" href="dist/theme/white.css">
+    <link rel="stylesheet" href="dist/theme/night.css">
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
-        <section>Slide 1</section>
-        <section>Slide 2</section>
+        <section data-markdown>
+          <textarea data-template>
+            ### Why Actionable AI Ethics
+            #### Operationalizing AI Ethics in practice
+            ---
+            ###### By Abhishek Gupta 
+            ###### Founder, Montreal AI Ethics Institute 
+            ###### Machine Learning Engineer, Microsoft 
+            ---
+            ###### To learn more, please visit the [homepage](https://atg-abhishek.github.io/actionable-ai-ethics)
+            ###### Find the newsletter [here](https://actionableaiethics.substack.com)
+          </textarea>
+        </section>
+        <section data-transition="convex" data-markdown="">
+          <textarea data-template>
+            #### More information forthcoming, stay tuned!
+            ---
+            ##### Sign up [here](https://actionableaiethics.substack.com) for the newsletter in the meantime!
+          </textarea>
+        </section>
       </div>
     </div>
     <script src="dist/reveal.js"></script>
@@ -15,4 +33,10 @@
       Reveal.initialize();
     </script>
   </body>
+  <script src="plugin/markdown/markdown.js"></script>
+    <script>
+      Reveal.initialize({
+        plugins: [ RevealMarkdown ]
+      });
+    </script>
 </html>
