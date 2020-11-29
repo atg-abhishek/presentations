@@ -12,5 +12,5 @@
 ---
 
 ## Ethics in the use of AI in war
-### 19TH ROK-UN JOINT CONFERENCE ON DISARMAMENT AND NON-PROLIFERATION ISSUES
+### 19TH ROK-UN Joint Conference on Disarmament and non-proliferation issues
 #### Slides are [here](https://atg-abhishek.github.io/presentations/ai_ethics_war.html)
