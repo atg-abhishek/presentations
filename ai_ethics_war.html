@@ -1,0 +1,252 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown data-transition="convex">
+          <textarea data-template>
+            ### Ethics in the use of AI in War
+            #### 19th ROK-UN Joint Conference on Disarmament and Non-proliferation Issues
+            ---
+            ###### Abhishek Gupta 
+            --- 
+            ###### Machine Learning Engineer and CSE Responsible AI Board Member, Microsoft
+            ###### Founder and Principal Researcher, [Montreal AI Ethics Institute](https://montrealethics.ai) 
+            ---
+            ###### More information about my work [here](https://atg-abhishek.github.io).
+          </textarea>
+        </section>
+        <section data-transition="convex" data-background-image="https://images.unsplash.com/photo-1513346940221-6f673d962e97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" data-background-opacity=0.3 data-markdown>
+          <textarea data-template>
+            ### Outline
+
+            --- 
+
+            * Quick basics
+            * Benefits vs. costs
+            * Current limitations of ethics principles
+            * Key issues 
+            * Open questions
+
+          </textarea>
+        </section>
+        
+        <section>
+
+          <section data-transition="convex" data-background-image="https://images.unsplash.com/photo-1510906594845-bc082582c8cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1456&q=80" data-background-opacity=0.3 data-markdown>
+            <textarea data-template>
+              ### Quick basics
+  
+            </textarea>
+          </section>
+
+          <section data-transition="convex" data-background-image="https://images.unsplash.com/photo-1510906594845-bc082582c8cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1456&q=80" data-background-opacity=0.3 data-markdown>
+            <textarea data-template>
+              ### What are Autonomous Weapons Systems (AWS)?
+
+              ---
+
+              Identify, select, and engage a target without meaningful human control.
+  
+            </textarea>
+          </section>
+
+          <section data-transition="convex" data-background-image="https://images.unsplash.com/photo-1510906594845-bc082582c8cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1456&q=80" data-background-opacity=0.3 data-markdown>
+            <textarea data-template>
+              ### What is semi-autonomy?
+
+              ---
+
+              Partial degree of autonomy in the system supplemented by a link to humans for oversight and control
+  
+            </textarea>
+          </section>
+
+
+          <section data-transition="convex" data-background-image="https://images.unsplash.com/photo-1510906594845-bc082582c8cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1456&q=80" data-background-opacity=0.3 data-markdown>
+            <textarea data-template>
+              ### What is full-autonomy?
+
+              ---
+
+              * Execute all its functions without any meaningful human control and link 
+              * Independently respond to a changing environment to achieve pre-programmed goals
+  
+            </textarea>
+          </section>
+
+          <section data-transition="convex" data-background-image="https://images.unsplash.com/photo-1510906594845-bc082582c8cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1456&q=80" data-background-opacity=0.3 data-markdown>
+            <textarea data-template>
+              ### What is lethal use?
+
+              ---
+
+              Significant danger to human life including loss of human life, intentional and unintentional
+  
+            </textarea>
+          </section>
+
+          <section data-transition="convex" data-background-image="https://images.unsplash.com/photo-1510906594845-bc082582c8cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1456&q=80" data-background-opacity=0.3 data-markdown>
+            <textarea data-template>
+              ### What is non-lethal use?
+
+              ---
+
+              Support functions that enable fundamental operations for a system such as take-off and landing assistance, ground collision avoidance, and bomb disposal among others.
+              
+              --- 
+
+              Note that some non-lethal uses can have downstream uses that can lead to lethal outcomes.
+  
+            </textarea>
+          </section>
+
+        </section>
+
+        <section>
+
+          <section data-transition="convex" data-background-image="https://images.unsplash.com/photo-1572851899307-3c130a64e831?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" data-background-opacity=0.3 data-markdown>
+            <textarea data-template>
+              ### Benefits vs. costs
+  
+            </textarea>
+          </section>
+
+          <section data-transition="convex" data-background-image="https://images.unsplash.com/photo-1572851899307-3c130a64e831?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" data-background-opacity=0.3 data-markdown>
+            <textarea data-template>
+              ### Potential benefits
+
+              ---
+
+              * Reduction in civilian casualties
+              * Reduction in the need for military personnel
+              * Reduction in overall harm through more precise targeting
+              
+              ---
+
+              Note : All the above come with a great degree of uncertainty in terms of how much they can be realized in practice. 
+  
+            </textarea>
+          </section>
+          
+          <section data-transition="convex" data-background-image="https://images.unsplash.com/photo-1572851899307-3c130a64e831?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" data-background-opacity=0.3 data-markdown>
+            <textarea data-template>
+              ### Costs
+
+              ---
+              
+              * Accidental escalation due to emergent interactions between different agents with potentially conflicting pre-programmed goals.
+              * Scaling harm even in the hands of small, non-state actors
+              * New attack surfaces exposed in the rest of the military infrastructure from a machine learning security perspective.
+
+              ---
+
+              Note : I've deliberately omitted the use of the word **potential** in the title because there is a higher degree of certainty in the costs that might be incurred. 
+  
+            </textarea>
+          </section>
+
+
+
+        </section>
+        
+        <section data-transition="convex" data-background-image="https://images.unsplash.com/photo-1494972688394-4cc796f9e4c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" data-background-opacity=0.3 data-markdown>
+
+          <textarea data-template>
+          ### Current limitations of ethics principles
+
+          ---
+
+          * Varying degree of emphasis on AI safety and reliability
+          * Underfunding of long-term AI security research 
+          * _Soft law_ is not enough
+          * Convergence on key themes but they are divorced from concrete implementations 
+          * Lack of firm governance structures
+          * _Potentially_ incorrect policy precedents
+          </textarea>
+        </section>
+
+        <section data-transition="convex" data-background-image="https://images.unsplash.com/photo-1469719847081-4757697d117a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" data-background-opacity=0.3 data-markdown>
+
+          <textarea data-template>
+          ### Key issues
+
+          ---
+
+          * Lack of ability to recall the system
+          * Rigid targeting tied to pre-programmed goals that can't be dynamically updated in the face of new information (_especially in offline mode_)
+          * Small, non-state actors can render outsized harms
+          * Unreliability of systems in highly volatile environments
+          * Myriad policy options with lack of consensus to form an international treaty
+          * Fragmented culture and lack of unanimity on condemning and stigmatizing LAWS
+          </textarea>
+        </section>
+
+        <section data-transition="convex" data-background-image="https://images.unsplash.com/photo-1488229297570-58520851e868?ixlib=rb-1.2.1&auto=format&fit=crop&w=1498&q=80" data-background-opacity=0.3 data-markdown>
+
+          <textarea data-template>
+          ### Open questions
+
+          ---
+
+          * What is meaningful human control?
+          * How do we set the boundaries between lethal and non-lethal uses (_when the non-lethal functions have downstream enablement implications_)?
+          * What are the implications of normalization of autonomy here on domains like medicine and self-driving?
+          </textarea>
+        </section>
+
+        <section data-transition="convex" data-markdown data-background-image="https://images.unsplash.com/photo-1482872376051-5ce74ebf0908?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1719&q=80", data-background-opacity=0.3>
+          <textarea data-template>
+            ### Thank you! 
+            
+            #### Here are some things that I am working on:
+
+            --- 
+
+            [Actionable AI Ethics Book](https://atg-abhishek.github.io/actionable-ai-ethics/)
+
+            ---
+            
+            [Data Science and Machine Learning Failures](http://failures.substack.com/)
+
+            --- 
+
+            Contact me at any of the options listed [here](https://atg-abhishek.github.io).
+
+
+          </textarea> 
+        </section>
+
+
+
+        
+        
+      </div>
+    </div>
+    <script src="dist/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+        slideNumber: "c/t",
+        mouseWheel: true
+      });
+    </script>
+  </body>
+  <script src="plugin/markdown/markdown.js"></script>
+  <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      Reveal.initialize({
+        plugins: [ RevealMarkdown, RevealHighlight],
+        // autoSlide: 20000,
+        loop: true, 
+        controlsTutorial: true, 
+        // hash: true, 
+        pdfSeparateFragments: false, 
+        width: 1200, 
+        height: 800
+      });
+    </script>
+</html>
